@@ -1,0 +1,78 @@
+img {
+    width: 100%;
+}
+body {
+    background: linear-gradient(rgba(250, 0, 0, 7), rgba(0, 0, 0, 0)), url("../images/persona5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+.navbar{
+    list-style-type:none;
+    display:flex;
+    justify-content:space-around;
+    bottom: 0;
+}
+.nav-item{
+    align-items:center;
+}
+p {
+  color: yellow;
+  font-size: 1.7em;
+  margin-right: 10em;
+}
+ol {
+    color:yellow;
+    font-size: 1.5em;
+}
+nav{ background-color:yellow;
+    padding:1%;
+    border-top: solid 6px black; 
+    text-decoration: none;
+    
+}
+
+a:link {
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+footer { 
+    border-top: solid 6px black;
+    position:fixed;
+    bottom:0;
+   justify-content:space-around;
+   display:flex;
+   /*margin: auto;*/
+   align-content:flex-end;
+   background-color: orange;
+   flex-wrap:wrap;
+   
+} 
+.twitch{
+    color: purple;
+    margin-left:11.5em;
+}
+.youtube{
+    color:Red;
+    margin-left:11.5em;
+    
+}
+.reddit{
+    color:white;
+    margin-left:11.5em;
+}
+.steam{
+    color:blue;
+    margin-left:13.12em;
+}
+.music{
+    margin-left: 10em;
+}
+.anime{
+    margin-left: 10em;
+}
+.games{
+    margin-left: 10em;
+}
